@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title> 
+    
+  <script type="text/javascript">
+    function appoinment()
+ {
+
+     var name= document.getElementById("t1").value;
+     var specialist= document.getElementById("t2").value;
+     var date= document.getElementById("t3").value;
+     var time= document.getElementById("t4").value;           
+     
+     
+ 
+
+     var letters = /^[A-Za-z]+$/;
+    
+
+     if(name=='')
+     {
+         alert('Please enter your name');
+     }
+     else if(!letters.test(name))
+     {
+         alert('Name field required only alphabet characters');
+     }
+     else if(specialist=='')
+     {
+         alert('Please enter text');
+     }
+     else if(date=='')
+     {
+         alert('Please enter date.');
+     }
+     else if(time=='')
+     {
+         alert('time');
+     }
+     else
+     {                                           
+            alert('Thank You.....! & You are appoinment noted'); 
+     }
+ }
+</script>
+</head>
+
+ <body>
+     <style>
+         div{
+             text-align: center;
+             color:black;
+             font-size: large;
+             font-style:italic ; 
+              }
+    body{ 
+        background-image:url('https://i.pinimg.com/originals/e1/ca/a8/e1caa8f42414aa7d8f183aa9f19c057a.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:100% 100% ;
+    } 
+    </style>
+    <div id="main">
+    <div class="h-tag">
+   <center> <h2>APPOINMENT</h2>
+   </div>
+    
+    <div class="appoinment">
+    <table cellspacing="2" align="center" cellpadding="8" border="0">
+    <tr>
+    <td align="right">NAME :</td>
+    <td><input type="text" placeholder="Enter user here" id="t1" class="tb" /></td>
+    </tr>
+    <tr>
+     <td align="right">SPECIALIST:</td>
+     <td><input type="text" placeholder="Enter  specialist here" id="t2" class="tb" /></td>
+    </tr>
+    <tr>
+    <td align="right">DATE:</td>
+   <td><input type="date" placeholder="Enter date here" id="t3" class="tb" /></td>
+    </tr>
+    <tr>
+    <td align="right">TIME:</td>
+    <td><input type="time" placeholder="Enter time here" id="t4" class="tb" /></td>
+    </tr>
+    <tr>
+    <td colspan="2"><input type="submit" value="Create Appoinment" class="btn" onclick="appoinment()" /></td>
+    </tr>
+    </table>
+    </div>
+    </center>
+</div>
+    
+    
+</body>
+</html>

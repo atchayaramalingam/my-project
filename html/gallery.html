@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    
+    <style>
+        * {
+             font-family:sans-serif;
+             transform-style: preserve-3d;
+             margin:0;
+             padding:0;
+        }
+        body{
+            background:grey;
+        }
+        .container{
+            position:relative;
+            column-count:4;
+            padding:20px;
+        }
+        .image{
+            display:inline-block;
+            margin-bottom:10px;
+            overflow:hidden;
+        }
+        img{
+            width:100%;
+            transition:0.25 ease-in-out;
+        }
+        .image:hover img{
+            transform:scale( 1.1);
+        }
+        h1{
+            position:absolute;
+            padding:5px;
+            margin:5px;
+            color:blue;
+            border-radius:5px;
+            opacity:0;
+            z-index:1;
+            transition:0.25 ease ease-in-out;
+        }
+        .image:hover{
+            opacity:0.5;
+        }
+        @media screen and(max-width:1024px){
+            h1{
+                font-size: 20px;
+            }
+        }
+        @media screen and(max-width:768px){
+            .container{
+                column-count:3 ;
+            }
+        }
+        @media screen and(max-width:425px){
+            .container{
+                column-count: 2;
+            }
+            h1{
+                font-size: 12px;
+            }
+        }
+        @media screen and(max-width:375px){
+            .container{
+                column-count: 1;
+            }
+            h1{
+                font-size: 15px;
+            }
+        }
+
+    </style>
+    </head>
+    <body>
+    <div class="container"> 
+        <div class="image">
+            <h1> Image name</h1>
+            <img src="C:\Users\atchaya\Desktop\my project\images\bed.jpg">
+        </div>
+        <div class="image">
+            <h1> Image name</h1>
+            <img src="C:\Users\atchaya\Desktop\my project\images\iso.jpg">
+        </div>
+        <div class="image">
+            <h1> Image name</h1>
+            <img src="C:\Users\atchaya\Desktop\my project\images\physical.jpg">
+        </div>
+        <div class="image">
+            <h1> Image name</h1>
+            <img src="C:\Users\atchaya\Desktop\my project\images\consult.jpg">
+        </div>
+        <div class="image">
+            <h1> Image name</h1>
+            <img src="C:\Users\atchaya\Desktop\my project\images\wp.jpg">
+        </div>
+        <div class="image">
+            <h1> Image name</h1>
+            <img src="C:\Users\atchaya\Desktop\my project\images\Doctor.jpg">
+        </div>
+        <div class="image">
+            <h1> Image name</h1>
+            <img src="C:\Users\atchaya\Desktop\my project\images\group.jpg">
+        </div>
+        <div class="image">
+            <h1> Image name</h1>
+            <img src="C:\Users\atchaya\Desktop\my project\images\scan.jpg">
+        </div>
+        <div class="image">
+            <h1> Image name</h1>
+            <img src="C:\Users\atchaya\Desktop\my project\images\ward.jpg">
+        </div>
+        <div class="image">
+            <h1> Image name</h1>
+            <img src="C:\Users\atchaya\Desktop\my project\images\str.jpg">
+        </div>
+        <div class="image">
+            <h1> Image name</h1>
+            <img src="C:\Users\atchaya\Desktop\my project\images\surgery.jpg">
+        </div>
+
+    </div>
+    
+</body>
+</html>
