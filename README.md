@@ -6,4 +6,5 @@ Hospital management website using HTML,CSS and JS.
 ![contact](https://user-images.githubusercontent.com/88307261/127988752-1c181173-57fe-4b49-9007-3214bbffb07c.png)
 ![gallery](https://user-images.githubusercontent.com/88307261/127988846-edd61573-4467-4bb4-a58c-83c793341bb6.png)
 ![registration](https://user-images.githubusercontent.com/88307261/127988940-998f0dba-06fa-4c92-a6ea-bc7882adebe6.png)
+![thanking page](https://user-images.githubusercontent.com/88307261/127989817-d0939464-4efe-410c-90f2-2e94b727e57e.png)
 ![appoinment](https://user-images.githubusercontent.com/88307261/127988371-d5bc995b-a07e-4d77-acc1-66b71833b30f.png)
