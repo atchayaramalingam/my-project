@@ -1,5 +1,20 @@
 # My-Project
 Hospital management website using HTML,CSS and JS.
+Table of contents
+---------------------
+*Index page
+*Home page
+*About page
+*Contact page
+*Gallery page
+*Registration page
+*Thanking page
+*Create appoinment page
+
+Description
+--------------------
+  User friiendly hospital website to know about us ,contact us and get membership with us and to book your appoinment within your place....
+
 ![index](https://user-images.githubusercontent.com/88307261/127988511-385fcbff-2555-4b6e-803e-4fda673e68b3.png)
 ![home](https://user-images.githubusercontent.com/88307261/127988626-94b59c67-6459-4855-b730-ac9581eec199.png)
 ![about](https://user-images.githubusercontent.com/88307261/127988704-4d9cb5d1-bf31-468d-937c-721ea3967906.png)
