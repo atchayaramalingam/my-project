@@ -1,4 +1,4 @@
-# my-project
+# My-Project
 Hospital management website using HTML,CSS and JS.
 ![index](https://user-images.githubusercontent.com/88307261/127988511-385fcbff-2555-4b6e-803e-4fda673e68b3.png)
 ![home](https://user-images.githubusercontent.com/88307261/127988626-94b59c67-6459-4855-b730-ac9581eec199.png)
